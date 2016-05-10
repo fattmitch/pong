@@ -1,0 +1,28 @@
+*, *::before, *::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: 15px;
+}
+
+body {
+  background-color: #212121;
+}
+
+.header {
+  max-width: 300px;
+  margin: 30px auto 30px;
+}
+
+.game {
+  width: 1000px;
+  margin: auto;
+}
+
+canvas {
+  border: 1px solid #FF00E5;
+}
